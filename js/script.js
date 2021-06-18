@@ -10,12 +10,13 @@
 
 const arrayLet = ['a','b','c','d','e','f'];
 
-let a = 2;
-let b = 5;
+let a = parseInt(prompt('Inserisci un numero da 1 a 6'));
+let b = parseInt(prompt('Inserisci un numero più grande del primo e max 6'));
 
 
-if(a< b){
-    arrayLet.forEach((element) => {
-        
-    };
-}
+arrayLet.filter((element) => {
+    const arrayVuoto = [];
+    if ()
+    
+  
+});
