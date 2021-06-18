@@ -15,12 +15,8 @@ let b = parseInt(prompt('Inserisci un numero più grande del primo e max 6'));
 
 
 const nuovo = arrayLet.filter((element) => {
-    if (element >= a && b >= element){
-        
-        return true;
-    };
-    return false;
     
-    
+    return element >= a && b >= element;
+  
 });
 console.log(nuovo);
