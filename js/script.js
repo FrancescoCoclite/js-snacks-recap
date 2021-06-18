@@ -8,15 +8,19 @@
 // b = 3;
 // mi restituisce a [11,6,77]
 
-const arrayLet = ['a','b','c','d','e','f'];
+const arrayLet = [1,2,3,4,5,6,7];
 
 let a = parseInt(prompt('Inserisci un numero da 1 a 6'));
 let b = parseInt(prompt('Inserisci un numero più grande del primo e max 6'));
 
 
-arrayLet.filter((element) => {
-    const arrayVuoto = [];
-    if ()
+const nuovo = arrayLet.filter((element) => {
+    if (element >= a && b >= element){
+        
+        return true;
+    };
+    return false;
     
-  
+    
 });
+console.log(nuovo);
